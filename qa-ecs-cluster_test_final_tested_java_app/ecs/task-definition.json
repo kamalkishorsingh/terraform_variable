@@ -1,0 +1,21 @@
+[
+  {
+    "name": "simple-app",
+    "image": "<image:tag>",
+    "cpu": 10,
+    "memory": 500,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "hostPort": 0
+      }
+    ],
+    "command": [],
+    "entryPoint": [],
+    "environment": [],
+    "links": [],
+    "mountPoints": [],
+    "volumesFrom": []
+  }
+]
