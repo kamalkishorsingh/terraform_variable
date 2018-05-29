@@ -1,7 +1,7 @@
 [
   {
     "name": "simple-app",
-    "image": "<image:tag>",
+    "image": "<ECR_LINk>:<TAG>",
     "cpu": 10,
     "memory": 500,
     "essential": true,
@@ -16,6 +16,12 @@
     "environment": [],
     "links": [],
     "mountPoints": [],
-    "volumesFrom": []
+    "volumesFrom": [],
+    "extraHosts": [
+      {
+        "hostname": "<Host_Name>",
+        "ipAddress": "<IP>"
+      }
+    ]
   }
 ]
